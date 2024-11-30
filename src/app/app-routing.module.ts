@@ -20,6 +20,7 @@ import {DealsComponent} from './deals/deals.component';
 
 import { Component } from '@angular/core';
 import {UserComponent} from "./user/user.component";
+import {ScilinkComponent} from "./scilink/scilink.component"
 
 
 const routes: Routes = [
@@ -44,6 +45,10 @@ const routes: Routes = [
   {
     path: 'contact-card',
     component: ContactCardComponent
+  },
+  {
+    path: 'scilink',
+    component: ScilinkComponent
   },
   {
     path: 'deals',
